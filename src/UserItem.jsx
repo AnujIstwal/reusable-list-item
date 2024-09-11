@@ -33,7 +33,7 @@ const UserItem = ({ user }) => {
                             {name}
                         </h2>
                         <a
-                            href={website}
+                            href={`https://${website}`}
                             target="_blank"
                             className="px-2  flex-wrap text-xs rounded-full border font-semibold text-green-600 bg-green-100 hover:bg-green-200"
                         >
