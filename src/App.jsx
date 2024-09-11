@@ -19,7 +19,7 @@ function App() {
     }, []);
 
     return (
-        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 mx-auto">
+        <div className="grid gap-4 grid-cols-1  md:grid-cols-2 mx-auto">
             {userData?.map((user) => (
                 <UserItem key={user.id} user={user} />
             ))}
