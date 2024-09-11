@@ -8,7 +8,7 @@ const UserItem = ({ user }) => {
     const avatarUrl = `https://i.pravatar.cc/150?u=${id}`;
 
     return (
-        <div className="flex bg-white shadow-md rounded-lg max-w-md mx-auto my-4 ">
+        <div className="flex bg-white shadow-md hover:shadow-lg rounded-lg max-w-md mx-auto my-4 ">
             <div className="flex flex-col justify-between w-[26rem] pt-6 pb-2">
                 <img
                     src={avatarUrl}
